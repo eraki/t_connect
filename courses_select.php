@@ -35,12 +35,12 @@ $LoginPassword="";
 
 <fieldset style="width:55%">
 <form method="post">
-
+<input type="hidden" name="co_id" value=" <?php echo "$row[co_id]"."   "?>" />
   <h3> اسم التدريب </h3>
   <input type="text" name="co_name" value="<?php echo "$row[co_name]"?>"><br><br>
   
   
-  <h3> اسم الشركة  </h3>
+  <h3> الجهة المانحة </h3>
   <input type="text" name="co_company" value="<?php echo "$row[co_company]"?>">
  <br><br>
  

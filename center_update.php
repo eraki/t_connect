@@ -119,8 +119,6 @@ $LoginName="root";
 $LoginPassword="";
 
 
-
-
 	$con = mysql_connect($HostName,$LoginName,$LoginPassword);
 	if (!$con)
   	{

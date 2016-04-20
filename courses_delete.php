@@ -40,7 +40,7 @@ $LoginPassword="";
   <input type="text" name="co_name" value="<?php echo "$row[co_name]"?>"><br><br>
   
   
-  <h3> اسم الشركة  </h3>
+  <h3> الجهة المانحة </h3>
   <input type="text" name="co_company" value="<?php echo "$row[co_company]"?>">
  <br><br>
  

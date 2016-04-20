@@ -20,7 +20,7 @@ form{background-color: #66ccff;}
   <input type="text" name="co_name">
   <br>
   
-  <h3> اسم الشركة  </h3>
+  <h3> الجهة المانحة </h3>
   <input type="text" name="co_company">
    <br><br><br>
    

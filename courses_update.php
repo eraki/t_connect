@@ -39,7 +39,7 @@ $LoginPassword="";
   <input type="text" name="co_name" value="<?php echo "$row[co_name]"?>"><br><br>
   
   
-  <h3> اسم الشركة  </h3>
+  <h3> الجهة المانحة </h3>
   <input type="text" name="co_company" value="<?php echo "$row[co_company]"?>">
  <br><br>
  
@@ -72,7 +72,8 @@ $LoginPassword="";
 	if (isset ($_GET['co_name'])&& isset ($_GET['co_company']))
 	{
 		$sql = "UPDATE courses SET  
-co_name= '$_GET[co_name]',co_company='$_GET[co_company]'" ;
+co_name= '$_GET[co_name]',co_company='$_GET[co_company]'
+WHERE  co_id= '$_GET[co_id]'" ;
 	
 	}
 	
